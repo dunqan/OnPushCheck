@@ -19,4 +19,8 @@ export class DrugiComponent implements OnInit {
   ngOnInit() {
   }
 
+  click() {
+    console.log('click');
+  }
+
 }
