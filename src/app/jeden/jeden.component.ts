@@ -3,8 +3,7 @@ import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
 @Component({
   selector: 'app-jeden',
   templateUrl: './jeden.component.html',
-  styleUrls: ['./jeden.component.css'],
-  changeDetection: ChangeDetectionStrategy.Default
+  styleUrls: ['./jeden.component.css']
 })
 export class JedenComponent implements OnInit {
 
@@ -18,4 +17,7 @@ export class JedenComponent implements OnInit {
   ngOnInit() {
   }
 
+  click() {
+    this.aa = this.aa + 100;
+  }
 }

@@ -4,7 +4,6 @@ import {ChangeDetectionStrategy, Component, OnInit} from '@angular/core';
   selector: 'app-drugi',
   templateUrl: './drugi.component.html',
   styleUrls: ['./drugi.component.css'],
-  changeDetection: ChangeDetectionStrategy.Default
 })
 export class DrugiComponent implements OnInit {
 
